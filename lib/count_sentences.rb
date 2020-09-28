@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     self.split(/[.?!]/).reject { |x| x.empty? }.length
+    #when you use reject, you're giving it the params of what to TAKE OUT.  In this case, take out empty
       
   end
 end
